@@ -3,13 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^10.12.4",
     "react": "^18.3.1",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
+    "react-google-charts": "^4.0.1",
+    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "sweetalert2": "^11.12.3",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.5.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
   }
 }
